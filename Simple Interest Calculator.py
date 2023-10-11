@@ -1,0 +1,22 @@
+repeat_code = "yes"
+while repeat_code == "yes":
+  print()
+  print("###################################################")
+  print("# Welcome to Shahzad's Simple Interest Calculator #")
+  print("###################################################")
+  print()
+  print()
+  principle_amount = float(input("What's the Loan Amount: $"))
+  interest_rate = float(input("What's the interest rate: %"))
+  time_period = float(input("What's the Time Period (in Years): "))
+  print()
+  simple_interest = float(( principle_amount * interest_rate * time_period ) / 100)
+  print("Your simple interest is $",simple_interest)
+  print()
+  repeat_code = input("Would you calculate another simple interest? (yes/no): ")
+else:
+    print("###############################################################")
+    print("#  Thank you for using Shahzad's Simple Interest Calculator!  #")
+    print("# if you like the calculator, please give it a 5-star review. #")
+    print("#                      Have a good day!                       #")
+    print("###############################################################")
