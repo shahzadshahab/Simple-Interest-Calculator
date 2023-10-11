@@ -1,6 +1,9 @@
 # Simple-Interest-Calculator
 This calculator will calculate "Simple Interest" from "Primary Loan Amount" (user provided), "Interests Rate" (user provided), and "Loan Time Period" (user provided).
 
+![image](https://github.com/shahzadshahab/Simple-Interest-Calculator/assets/140359967/ee02bfda-3bea-475c-8f4e-d7dcd9c42ee2)
+
+
 The working Formula is:
 
 Simple Interest = ( Primary Loan Amount * Interests Rate * Loan Time Period ) / 100
